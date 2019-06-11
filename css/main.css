@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee',arial;
     font-size: 13pt;
     background-color: grey;
     padding: 10px;
@@ -28,7 +28,7 @@ p {
     border-radius: 500px;
 }
 .section {
-    background-color: powderblue;
+    background-color:white;
     font-family: cursive;
     padding: 15px;
     margin-bottom: 10px;
