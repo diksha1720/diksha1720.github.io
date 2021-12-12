@@ -376,7 +376,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "work I've done";
 }
 .teams .carousel .card{
     background: #222;
@@ -438,11 +438,12 @@ section .title::after{
 }
 
 /* contact section styling */
+
 .contact .title::after{
     content: "get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(40% - 30px);
 }
 .contact .contact-content .text{
     font-size: 20px;
@@ -481,6 +482,7 @@ section .title::after{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
+    margin-right:450px;
 }
 .contact .right form .textarea{
     height: 80px;
@@ -541,7 +543,7 @@ footer{
     color: #fff;
     text-align: center;
 }
-footer span a{
+footer  a{
     color: crimson;
     text-decoration: none;
 }
