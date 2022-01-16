@@ -145,7 +145,7 @@ a:hover{
   color:#F9C5D5
 }
 a h4{
-  color: #B762C1
+  color:#9145B6
 }
 a h4:hover{
   color:#F9C5D5
@@ -502,6 +502,10 @@ a h4:hover{
 
   .about-image {
     margin-top: 4em;
+  }
+  .contact-image{
+    padding-top: 0em;
+    margin-top: 0em;
   }
 
   .mobile-mt-2,
