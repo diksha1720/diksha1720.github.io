@@ -11,6 +11,7 @@ https://www.tooplate.com/view/2115-marvel
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
+
 }
 
 .full-screen {
@@ -99,7 +100,7 @@ b, strong {
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
+  background: #F9C5D5;
   color: #ffffff !important;
 }
 
@@ -116,7 +117,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #9145B6;
 }
 
 .animated-item {
@@ -136,6 +137,18 @@ b, strong {
 }
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
+}
+a{
+  color: #502064
+}
+a:hover{
+  color:#F9C5D5
+}
+a h4{
+  color: #B762C1
+}
+a h4:hover{
+  color:#F9C5D5
 }
 
 @keyframes BottomTotop {
@@ -260,7 +273,7 @@ b, strong {
   position: relative;
 }
 .icons{
-  color:grey;
+  color:#502064;
 }
 
 .copyright-text {
@@ -330,7 +343,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #474559;
+  background: #502064;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -338,7 +351,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #502064;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -359,9 +372,13 @@ b, strong {
   vertical-align: top;
   max-width: 432px;
   margin-left: 6em;
+
+}
+.timeline-info h3{
+  color:#9145B6
 }
 .timeline-info small {
-  color: #474559;
+  color: #B762C1;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
