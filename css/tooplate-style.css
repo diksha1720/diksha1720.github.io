@@ -41,7 +41,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #F9C5D5 !important;
 }
 
 .navbar-brand .uil {
@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-  color: #484848;
+  color: #9145B6;
 }
 
 h3,
@@ -93,7 +93,7 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: #F9C5D5;
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
@@ -178,7 +178,8 @@ a h4:hover{
     opacity: 0;
   }
 }
-.navbar {
+
+.navbar{
   position: fixed;
   top: 0;
   right: 0;
@@ -186,7 +187,9 @@ a h4:hover{
   z-index: 999999;
   will-change: transform;
   transition: transform 200ms linear;
+   box-shadow: none;
 }
+
 .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
 }
@@ -213,21 +216,21 @@ a h4:hover{
   font-size: 16px;
   overflow: hidden;
 }
-.nav-link span {
+/* .nav-link span {
   position: relative;
   display: inline-block;
   transition: transform 0.3s;
-}
-.nav-link span:before {
+} */
+/* .nav-link span:before {
   position: absolute;
   top: 100%;
   content: attr(data-hover);
   transform: translate3d(0, 0, 0);
-}
+} */
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #F9C5D5;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -290,6 +293,7 @@ a h4:hover{
 .color-mode-icon {
   position: relative;
   right: 6px;
+
 }
 .color-mode-icon:after {
   font-family: 'unicons';
@@ -312,7 +316,7 @@ a h4:hover{
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #F9C5D5;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -324,9 +328,12 @@ a h4:hover{
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .darkmode .timeline-info h3 span, .dark-mode h5, .dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
+}
+.dark-mode h4{
+  color: #9145B6
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
@@ -374,9 +381,6 @@ a h4:hover{
   margin-left: 6em;
 
 }
-.timeline-info h3{
-  color:#9145B6
-}
 .timeline-info small {
   color: #B762C1;
   font-size: 16px;
@@ -418,7 +422,7 @@ a h4:hover{
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
+  color:#F9C5D5;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -450,10 +454,10 @@ a h4:hover{
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #F9C5D5;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #F9C5D5;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -482,7 +486,7 @@ a h4:hover{
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #F9C5D5;
 }
 
 @media (min-width: 1270px) {
